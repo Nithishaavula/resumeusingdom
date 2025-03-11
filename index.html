@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let div=document.createElement("div");
+        div.style.display="flex";
+        div.style.justifyContent="center";
+        div.style.alignItems="center";
+        div.style.flexDirection="column";
+        div.style.gap="5px";
+       let a=document.createElement("h2");
+        console.log(a);
+       let b= document.createElement("b");
+       console.log(b);
+       let b1=document.createElement("b");
+       console.log(b1);
+       b1.style.color="blue";
+       let c= document.createElement("b");
+       let d=document.createElement("b");
+        d.style.color="gray";
+        let e=document.createElement("b");
+       let f= document.createElement("b");
+         f.style.color="blue";
+
+       a.innerHTML="Nithish Aavula";
+         b.innerHTML="Email:";
+         b1.innerHTML="nithishaavula12101999@gmail.com";
+            b.appendChild(b1);
+            c.innerHTML="Contact:";
+            d.innerHTML="9494252566";
+            c.appendChild(d);
+            e.innerHTML="linkedin:";
+            f.innerHTML="https://www.linkedin.com/in/nithish-aavula-7b0b3b1b3/";    
+            e.appendChild(f);
+            div.append(a,b,c,e);
+            document.body.appendChild(div);
+            let div1=document.createElement("div");
+            h1=document.createElement("h1");
+            h1.innerHTML="Professional Summary";
+            div1.appendChild(h1);
+            let p=document.createElement("p");
+            p.innerHTML="I am a fresher looking for a job in the field of web development. I have good knowledge in HTML, CSS, JavaScript, and ReactJS. I am a quick learner and I am ready to learn new technologies.";
+            div1.appendChild(p);
+            document.body.appendChild(div1);
+            let div2=document.createElement("div");
+            let h21=document.createElement("h2");
+            console.log(div2)
+            h21.innerHTML="EDUCATION";
+            div2.appendChild(h21);
+            p1=document.createElement("p");
+            p1.innerHTML="<b>B.tech</b> in Computer Science and Engineering from Nalla Narsimha Reddy group of institutions";
+            div2.appendChild(p1);
+            let p2=document.createElement("p");
+            p2.innerHTML="<b>Intermediate</b> from Narayana Junior College";
+            div2.appendChild(p2);
+            let p3=document.createElement("p");
+            p3.innerHTML="<b>SSC</b> in Little Buds High School";
+            div2.appendChild(p3);
+    document.body.appendChild(div2);
+    let div3=document.createElement("div");
+    div3h2=document.createElement("h2")
+    div3h2.innerHTML="PROJECTS";
+    let div3p1=document.createElement("p");
+    div3.appendChild(div3h2);
+
+    div3p1.innerHTML="<b>Attendance System Based on Face Recognition using Opencv</b>This project is basically about the Recording and Tracking students attendance using face recognition. This project is implemented using Python, OpenCV, and Machine Learning  Algorithms.";
+    div3.appendChild(div3p1);
+    console.log(div3);
+    document.body.appendChild(div3);
+    let div3p2=document.createElement("p");
+    div3p2.innerHTML="<b>A Lightweight Secure Data Sharing Scheme for Mobile Cloud Computing </b> With the popularity of cloud computing, mobile devices can store/retrieve personal data from anywhere at any time through the cloud. However, the data stored in the cloud is not always secure. In this project, we propose a lightweight secure data sharing scheme for mobile cloud computing.";
+    div3.appendChild(div3p2);
+    let div4=document.createElement("div");
+    let h5=document.createElement("h2");
+    h5.innerHTML="SKILLS";
+    div4.appendChild(h5);
+   let li1=document.createElement("li");
+   li1.innerHTML="<b>Technical Skills</b>: HTML, CSS, JavaScript, ReactJS, Python, OpenCV, Machine Learning Algorithms";
+   div4.appendChild(li1)
+   let li2=document.createElement("li");
+   li2.innerHTML="<b>Frame work</b>: ReactJS, Django,BootStrap";
+   div4.appendChild(li2)
+   let li3=document.createElement("li");
+   li3.innerHTML="<b>Tools</b>: Visual Studio Code,GitHub,Notepad++";
+    div4.appendChild(li3);
+   document.body.appendChild(div4);
+   console.log(div4);
+   let div5=document.createElement("div");
+   let h6=document.createElement("h2");
+   h6.innerHTML="SOFT SKILLS";
+    div5.appendChild(h6);
+    console.log(div5);
+    document.body.appendChild(div5);
+    li1.innerHTML="<b>Technical Skills</b>: HTML, CSS, JavaScript, ReactJS, Python, OpenCV, Machine Learning Algorithms";
+   div4.appendChild(li1)
+   let li4=document.createElement("li");
+   li4.innerHTML="Communication";
+   div4.appendChild(li4)
+   let li5=document.createElement("li");
+   li5.innerHTML="Problem Solving";
+   let li6=document.createElement("li");
+   li6.innerHTML="Quick Learner";
+    div5.appendChild(li4);
+    div5.appendChild(li5);
+    div5.appendChild(li6);
+       /*
+       how to append a new element in the DOM
+
+       
+       */
+    </script>
+</body>
+</html>
